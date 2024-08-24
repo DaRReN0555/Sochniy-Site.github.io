@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "Benzin-Bold";
+  src: url(/fonts/benzin-bold.ttf);
+}
+
+.text {
+  margin-top: 200px;
+  color: rgb(194, 191, 191);
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Benzin-Bold";
+  text-decoration: none;
+  background: url(logo/russia.gif);
+  background-size: cover;
+}
+
+.skibidi {
+  text-align: center;
+}
+
+.link {
+  list-style: none;
+  gap: 15px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.link a {
+  text-decoration: none;
+  color: rgb(224, 93, 16);
+}
+
+.logo1 {
+  background-color: #0088cc;
+  background-image: url(logo/logo.png);
+  background-size: 100%;
+  background-position: 50% 50%;
+  width: 400px;
+  height: 400px;
+  border-radius: 30%;
+  margin: 50px;
+  opacity: 0.7;
+  transition-duration: 0.3s;
+}
+
+.logo1:hover {
+  transform: scale(1.1);
+  background-image: url(logo/telegram_logo_paper_plane_icon_258935.png);
+  background-blend-mode:lighten;
+  
+  background-size: 90%;
+  opacity: 1;
+}
+
+.logo1:active {
+  transform: scale(0.95);
+}
+
+.logo2 {
+  background-color: #7289d9;
+  background-image: url(logo/logo.png);
+  background-size: 100%;
+  background-position: 50% 50%;
+  width: 400px;
+  height: 400px;
+  border-radius: 30%;
+  margin: 50px;
+  opacity: 0.7;
+  transition-duration: 0.3s;
+}
+
+.logo2:hover {
+  transform: scale(1.1);
+  background-image: url(logo/discord.png);
+  opacity: 1;
+}
+
+.logo2:active {
+  transform: scale(0.95);
+}
+
+.logo3 {
+  background-color: #ff0000;
+  background-image: url(logo/logo.png);
+  background-size: 100%;
+  background-position: 50% 50%;
+  width: 400px;
+  height: 400px;
+  border-radius: 30%;
+  margin: 50px;
+  opacity: 0.7;
+  transition-duration: 0.3s;
+}
+
+.logo3:hover {
+  transform: scale(1.1);
+  background-image: url(logo/youtube.png);
+  opacity: 1;
+}
+
+.logo3:active {
+  transform: scale(0.95);
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  margin: center;
+  margin-top: 3%;
+}
+
+.space {
+  margin-top: 300px;
+}
